@@ -1,0 +1,12 @@
+/target/
+/.settings/
+/.project
+/.classpath
+/node_modules/
+/drivers/
+/error-screenshots/
+/webpack.generated.js
+/logs/
+/bin/
+/log/
+/lombok.config
