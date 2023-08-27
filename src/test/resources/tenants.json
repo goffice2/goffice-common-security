@@ -1,0 +1,27 @@
+{
+	"tenants": {
+		"bolzano": {
+			"keycloak": "Bolzano",
+			"belfiore": "belfioreBolzano",
+			"istat": "istatBolzano",
+			"dbSchema": "bolzano",
+			"codCatastale": "A952",
+			"additionalInfo": {
+				"net.gvcc.goffice.service.documentmanagement.d3Proxy.D3ProxyTenantInfo": {
+					"dmsUrl": "URL",
+					"dmsRepository": "REPO",
+					"dmsPassword": "PWD",
+					"userMappings": {
+						"service-account-goffice-service-security": "test99_sgv"
+					}
+				}
+			},
+			"public": {
+				"keycloak": "public",
+				"belfiore": "belfioreAbtei",
+				"istat": "istatAbtei",
+				"dbSchema": "PUBLIC"
+			}
+		}
+	}
+}

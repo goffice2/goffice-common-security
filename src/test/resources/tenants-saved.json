@@ -1,0 +1,78 @@
+{
+  "tenants" : {
+    "bolzano" : {
+      "keycloak" : "Bolzano",
+      "belfiore" : "A952",
+      "istat" : "21111",
+      "dbSchema" : "bolzano",
+      "ldapO" : null,
+      "ipaAoo" : "c_a952",
+      "codCatastale" : "A952",
+      "additionalInfo" : {
+        "net.gvcc.goffice.multitenancy.test.bean.D3ProxyTenantInfo" : {
+          "dmsUrl" : "new url",
+          "dmsRepository" : "new repository",
+          "userMappings" : {
+            "service-account-goffice-service-security" : "test99_sgv"
+          }
+        },
+        "net.gvcc.goffice.multitenancy.test.bean.DbmsTenantCatalog" : [ {
+          "owner" : "goffice-connector-goffice1",
+          "name" : "h2-test-1",
+          "main" : false,
+          "url" : "new url",
+          "username" : "new username",
+          "password" : "test",
+          "driverClassName" : "org.h2.Driver",
+          "sqlDialect" : "org.hibernate.dialect.H2Dialect"
+        }, {
+          "owner" : "goffice-connector-elixforms",
+          "name" : "h2-test-2",
+          "main" : false,
+          "url" : "new url",
+          "username" : "new username",
+          "password" : "test",
+          "driverClassName" : "org.h2.Driver",
+          "sqlDialect" : "org.hibernate.dialect.H2Dialect"
+        } ]
+      }
+    },
+    "123" : {
+      "keycloak" : "Abtei",
+      "belfiore" : "A952",
+      "istat" : "21111",
+      "dbSchema" : "bolzano",
+      "ldapO" : null,
+      "ipaAoo" : "c_a952",
+      "codCatastale" : "A952",
+      "additionalInfo" : {
+        "net.gvcc.goffice.multitenancy.test.bean.D3ProxyTenantInfo" : {
+          "dmsUrl" : "new url",
+          "dmsRepository" : "new repository",
+          "userMappings" : {
+            "service-account-goffice-service-security" : "test99_sgv"
+          }
+        },
+        "net.gvcc.goffice.multitenancy.test.bean.DbmsTenantCatalog" : [ {
+          "owner" : "goffice-connector-infocamere",
+          "name" : "h2-test-1",
+          "main" : false,
+          "url" : "new url",
+          "username" : "new username",
+          "password" : "test",
+          "driverClassName" : "org.h2.Driver",
+          "sqlDialect" : "org.hibernate.dialect.H2Dialect"
+        }, {
+          "owner" : "goffice-service-licenses",
+          "name" : "h2-test-2",
+          "main" : false,
+          "url" : "new url",
+          "username" : "new username",
+          "password" : "test",
+          "driverClassName" : "org.h2.Driver",
+          "sqlDialect" : "org.hibernate.dialect.H2Dialect"
+        } ]
+      }
+    }
+  }
+}
